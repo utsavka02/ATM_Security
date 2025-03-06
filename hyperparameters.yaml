@@ -1,0 +1,28 @@
+lr0: 0.01  # Initial learning rate
+lrf: 0.1  # Final learning rate fraction
+momentum: 0.937  # SGD momentum
+weight_decay: 0.0005  # L2 regularization weight decay
+warmup_epochs: 3.0  # Number of warmup epochs
+warmup_momentum: 0.8  # Initial momentum during warmup
+warmup_bias_lr: 0.1  # Initial learning rate for bias layers
+box: 0.05  # Box loss gain
+cls: 0.5  # Classification loss gain
+cls_pw: 1.0  # Classification loss power
+obj: 1.0  # Object loss gain
+obj_pw: 1.0  # Object loss power
+iou_t: 0.2  # IoU threshold for objectness loss
+anchor_t: 4.0  # Anchor threshold
+fl_gamma: 0.0  # Focal loss gamma (0 = BCE)
+hsv_h: 0.015  # HSV-Hue augmentation
+hsv_s: 0.7  # HSV-Saturation augmentation
+hsv_v: 0.4  # HSV-Value augmentation
+degrees: 0.0  # Image rotation
+translate: 0.1  # Image translation
+scale: 0.5  # Image scale
+shear: 0.0  # Image shear
+perspective: 0.0  # Image perspective
+flipud: 0.0  # Vertical flip probability
+fliplr: 0.5  # Horizontal flip probability
+mosaic: 1.0  # Mosaic augmentation probability
+mixup: 0.2  # Mixup augmentation probability
+copy_paste: 0.0  # Copy-paste augmentation probability
