@@ -5,7 +5,7 @@ streamlit==1.17.0
 wget
 matplotlib==3.9.4
 numpy==1.26.4
-opencv-python-headless==4.10.0
+opencv-python-headless
 Pillow==11.1.0
 PyYAML>=5.3.1
 requests>=2.23.0
