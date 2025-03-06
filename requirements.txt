@@ -1,18 +1,18 @@
-ipython  # interactive notebook
-psutil
-thop
 streamlit==1.17.0
 wget
 matplotlib==3.9.4
 numpy==1.26.4
 opencv-python-headless
-Pillow==11.1.0
+Pillow
 PyYAML>=5.3.1
 requests>=2.23.0
 scipy==1.13.1
 torch>=1.7.0
 torchvision>=0.8.1
 tqdm>=4.41.0
-protobuf<4.21.5  # https://github.com/ultralytics/yolov5/issues/8012
+protobuf<4.21.5
 pandas==1.5.3
 seaborn==0.13.2
+ipython
+psutil
+thop
